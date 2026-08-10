@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative bg-[url('./storeImages.webp')] object-cover object-center to-slate-900 text-white">
+      <section className="relative bg-[url('/storeImages.webp')] object-cover object-center to-slate-900 text-white">
 
        <div className="absolute inset-0 bg-black/60"></div>
 
