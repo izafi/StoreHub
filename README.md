@@ -13,11 +13,8 @@ StoreHub was developed as a practical React project to demonstrate API integrati
 ## 🌐 Live Demo
 
 🔗 **Live Website:**  
-Add your deployed Vercel/Netlify URL here.
 
-Example:
-
-`https://store-hub-kappa.vercel.app/`
+https://store-hub-kappa.vercel.app/
 
 ---
 
