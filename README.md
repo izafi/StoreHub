@@ -584,5 +584,4 @@ Under your repository name, I'd use:
 
 And for the README, replace:
 
-```text
-https://storehub.vercel.app
+https://store-hub-kappa.vercel.app/
