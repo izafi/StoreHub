@@ -17,7 +17,7 @@ Add your deployed Vercel/Netlify URL here.
 
 Example:
 
-`https://storehub.vercel.app`
+`https://store-hub-kappa.vercel.app/`
 
 ---
 
