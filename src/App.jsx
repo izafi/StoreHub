@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import Recipes from './pages/Recipes'
 import ScrollToTop from './components/common/ScrollToTop'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route index element={<Home/>}/>
         <Route path='Products' element={<Products/>}/>
         <Route path='recipes' element={<Recipes/>}/>
+        <Route path='contact' element={<Contact/>}/>
         </Route>
       </Routes>
       

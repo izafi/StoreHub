@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
+import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   // State for mobile menu
@@ -47,7 +48,19 @@ const Navbar = () => {
             >
               Recipes
             </Link>
+            <Link 
+              to="/contact"
+              className="hover:text-yellow-400 transition duration-300"
+            >
+                Contact
+              </Link>
 
+          </div>
+
+          {/* Add to Cart  */}
+
+          <div className="hidden w-8 h-8 border-[2px] border-white rounded-full md:flex items-center justify-center cursor-pointer hover:border-[#FDC700] hover:text-[#FDC700] hover:scale-[1.10] transition ease-in-out duration-200 ">
+                < FaCartShopping />
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,6 +104,16 @@ const Navbar = () => {
               >
                 Recipes
               </Link>
+              <Link 
+              to="/contact"
+               onClick={() => setMenuOpen(false)}
+              className="px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-yellow-400 transition"
+            >
+                Contact
+              </Link>
+              <div onClick={() => setMenuOpen(false)} className=" flex items-center justify-center cursor-pointer px-4 py-3 rounded-lg hover:bg-slate-800 hover:text-yellow-400 transition">
+                < FaCartShopping className="text-[20px]  " />
+          </div>
 
             </div>
 
